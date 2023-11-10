@@ -1,0 +1,29 @@
+.shopAll {
+    padding-top: 40px;
+    width: 100%;
+    padding-bottom: 80px;
+    .container {
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 50px;
+            h2 {
+                color: #000;
+                font-size: 40px;
+            }
+            p {
+                color: #000;
+                letter-spacing: 1px;
+                margin-right: 17px;
+            }
+        }
+        .shopAllProducts {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 17px;
+        }
+    }
+}
+
